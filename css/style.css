@@ -1,0 +1,97 @@
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('../img/bg.jpg');
+            /* width: 50%; */
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            width: 133px;
+            padding: 0px;
+            /* border: 2px solid red; */
+        }
+        .mid{
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+            box-sizing: border-box;
+        }
+        .right{
+            position: absolute;
+               /* border: 2px solid yellow; */
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar  li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: gray;
+        }
+        .left img{
+            display: block;
+            width: 96px;
+            margin: 2px auto;
+            /* filter ,inver used to convert the image black into white and vice versa */
+            filter: invert(100%);
+        }
+        .left div{
+            line-height: 19px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .btn{
+            margin: 13px 9px;
+            padding: 4px 14px;
+            background-color: black;
+            color: white;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .btn:hover{
+                background-color: gray;
+            }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            margin: 9px auto;
+            padding: 1px;
+            border: 2px solid black;
+            font-size: 25px;
+            border: 8px;
+        }
+        .container{
+            border: 2px solid white;
+            border-radius: 28px;
+            margin: 160px 80px;
+            width: 40%;
+            padding: 75px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 96%;
+            margin: 20px auto;
+        }
